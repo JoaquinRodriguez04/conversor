@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversor de unidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="conversor_container">
+            <h2 class="title">conversor de unidades</h2>
+            <div class="interactive">
+                <div class="form">
+                    <span>convertir de</span>
+                    <select name="unidad1" id="unidad1">
+                        <option value="kilometro">kilometro</option>
+                        <option value="metro">metro</option>
+                        <option value="centimetro">centrimetro</option>
+                    </select>
+                    <span>a</span>
+                    <select name="unidad2" id="unidad2">
+                        <option value="kilometro">kilometro</option>
+                        <option value="metro">metro</option>
+                        <option value="centimetro">centimetro</option>
+                    </select>
+                </div>
+                <input type="number" id="value" placeholder="numero">
+                <div class="result" id="result"><span class="color">.</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
